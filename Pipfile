@@ -8,8 +8,13 @@ black = "*"
 isort = "*"
 flake8 = "*"
 mypy = "*"
+pytest = "*"
+pytest-cov = "*"
 
 [packages]
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
